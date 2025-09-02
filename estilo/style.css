@@ -36,7 +36,7 @@ main{
     background-color: var(--Grey-900);
     width: 90vw;
     height: 60vh;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 0rem 2rem;
     display: flex;
     flex-flow: column nowrap;
@@ -88,13 +88,58 @@ main p{
     font-weight: 700;
 }
 
+#menu a:hover{
+    background-color: var(--Orange-500);
+}
+
 #subimit{
     background-color: var(--Orange-500);
     color: var(--Grey-950);
+    border: none;
     border-radius: 3rem;
     line-height: 4.5rem;
     text-align: center;
     font-weight: 700;
+    cursor: pointer;
+}
+
+#resposta{
+    background-color: var(--Grey-900);
+    width: 90vw;
+    height: 60vh;
+    border-radius: 2rem;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#resposta img{
+    width: 15rem;
+    padding-bottom: 2rem;
+}
+
+#resposta h2{
+    background-color: #343f4d;
+    color: var(--Orange-500);
+    border-radius: 3rem;
+    line-height: 3rem;
+    padding: .5rem 1rem 0rem 1rem;
+    font-weight: 400;
+}
+
+#resposta h1{
+    color: var(--White);
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+#resposta p{
+    color: var(--Grey-500);
+    font-weight: 400;
+    line-height: 2.4rem;
 }
 
 footer{
@@ -102,4 +147,5 @@ footer{
     text-decoration: none;
     color: var(--White);
     font-weight: 300;
+    margin-top: 1rem;
 }
